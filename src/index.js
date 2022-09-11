@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Learn from './Learn'
+import Sec from './sec/sec.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <App/>
+   <link rel="stylesheet" href = "https://fonts.googleapis.com/css?family=Manrope"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
